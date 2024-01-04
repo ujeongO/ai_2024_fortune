@@ -134,7 +134,7 @@ if submit:
     elif not birth:
         st.error("생년월일을 입력해주세요.")
     else:
-        st.success(f"{name} 님의 오늘의 {animal}띠 운세 확인중...")
+        # st.success(f"{name} 님의 오늘의 {animal}띠 운세 확인중...")
         
         year = birth.year
         t_year = date.year
