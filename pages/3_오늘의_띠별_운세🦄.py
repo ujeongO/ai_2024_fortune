@@ -134,7 +134,7 @@ if submit:
     elif not birth:
         st.error("생년월일을 입력해주세요.")
     else:
-        # st.success(f"{name} 님의 오늘의 {animal}띠 운세 확인중...")
+        st.success(f"{name} 님의 오늘의 {animal}띠 운세 확인중...")
         
         year = birth.year
         t_year = date.year
@@ -148,9 +148,9 @@ if submit:
             t_year=t_year,
             t_month=t_month,
             t_day=t_day,
-            animal=animal[:-1],
-            min_length=80,
-            max_length=150
+            animal=animal,
+            min_length=30,
+            max_length=90
         )
         st.write(f"**{name} 님의 {t_year}년 {t_month}월 {t_day}일의 {animal}띠 운세 확인 중...**")
         st.divider()
