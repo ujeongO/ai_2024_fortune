@@ -192,9 +192,9 @@ if submit:
             t_year=t_year,
             t_month=t_month,
             t_day=t_day,
-            want=fortune,
-            min_length=50,
-            max_length=80
+            want=fortune[:-1],
+            min_length=150,
+            max_length=200
         )
     # 태어난 시각 알 때
     else:
@@ -212,9 +212,9 @@ if submit:
             t_year=t_year,
             t_month=t_month,
             t_day=t_day,
-            want=fortune,
-            min_length=50,
-            max_length=80
+            want=fortune[:-1],
+            min_length=150,
+            max_length=200
         )
     st.write(f"**{name} 님의 {t_month}월 {t_day}일 {fortune} 운세를 확인 중...**")
     st.divider()
