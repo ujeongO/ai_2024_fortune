@@ -165,8 +165,8 @@ if submit:
             gender=gender,
             name=name,
             want=fortune[:-1],
-            min_length=100,
-            max_length=200
+            min_length=150,
+            max_length=210
         )
     else:
         # year = birth.year
@@ -185,8 +185,8 @@ if submit:
             gender=gender,
             name=name,
             want=fortune[:-1],
-            min_length=100,
-            max_length=200
+            min_length=150,
+            max_length=210
         )
     st.write(f"**{year}년 {month}월 {day}일 {name} 님의 2024년 {fortune} 풀이 중...**")
     st.divider()
