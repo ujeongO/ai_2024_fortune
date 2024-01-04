@@ -156,7 +156,6 @@ with st.form("form"):
     with col2:
         date = st.date_input(
             "날짜",
-            min_value=datetime.datetime.now(),
             value=tomorrow_date if tomorrow else "today",
         )
     fortune = st.selectbox(
