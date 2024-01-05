@@ -11,14 +11,6 @@ st.set_page_config(
     initial_sidebar_state="collapsed"
 )
 
-# 사용자가 토글을 조절할 수 있는 다크모드 체크 박스 생성
-dark_mode = st.toggle("🌙")
-
-# 다크 모드가 활성화되었다면, 테마를 "dark"로 설정
-if dark_mode:
-    st.set_theme("dark")    # 이거 왜 안 되묘...
-
-
 st.title("🐉 청룡신이 알려주는 2024년 신년 운세")
 st.subheader("AI를 이용하여 2024년 운세를 점쳐보세요🔮")
 st.info("운세를 보기 위해선 기본 정보가 꼭 필요합니다. 운세결과에 중요한 영향을 미치니 정확히 입력해주세요!")
