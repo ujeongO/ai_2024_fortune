@@ -1,8 +1,8 @@
 import streamlit as st
 
-st.set_page_config(
-    initial_sidebar_state="collapsed"
-)
+# st.set_page_config(
+#     initial_sidebar_state="collapsed"
+# )
 
 st.subheader("2024년 청룡의 해가 밝았습니다🐉")
 st.title("🙇새해복 많이 받으세요🍀")
